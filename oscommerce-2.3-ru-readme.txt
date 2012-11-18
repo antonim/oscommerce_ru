@@ -1,0 +1,19 @@
+Перевод:
+Фреди oscomm.biz
+VaM kypi.ru
+Valerka eshop-master.com
+Andrew Berezin eCommerce-Service.com
+
+Демо - http://demo.oscommerce2.ru/
+
+Последние версии, вопросы, обсуждения - http://oscomm.biz/index.php?showtopic=18337&st=0
+
+1. Копируем файлы в соответствующие директории.
+2. Выполняем install/convert_2utf8.sql.
+3. В админе добавляем русский язык.
+4. По желанию выполняем:
+Перевод меню "Конфигурация" в админе - install/translate_configuration.sql
+Перевод стран - install/mysql_30_translate_countries.sql
+Регионы России - install/mysql_31_zones_ru.sql
+Регионы ex-СССР - install/mysql_32_zones_ex_ussr.sql
+Формат адреса - install/mysql_44_address_format.sql
